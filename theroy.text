@@ -1,0 +1,74 @@
+============Loop===========
+
+1. for loop
+2. foreach loop
+3. while
+4. do while
+
+
+=>for loop
+
+for (initialization; range/condition; increment/decrement)
+        1              10 ++ / + 2
+        10              5 -- / - 2
+
+for (initialization; range/condition; increment/decrement){
+    //Statement.....
+} 
+
+answer= for(let i=0; i<=10; i++)
+        console.log(marks[i]);
+
+
+
+=> foreach loop.........
+
+
+let array = [344, 59, 0, 67];
+
+array.foreach((element)=>{
+    element;
+})
+
+answer=
+           Number.forEach((i)=>{
+                console.log(i);
+                                   })
+
+
+
+
+=>while loop.........
+
+let i = 0;
+
+while (i<=5){
+    //Statement...
+
+    increment/decrement
+}
+
+answer=
+            let x = 0;
+
+                 while(x<=11){
+                            console.log (Number[x]);
+                                x++;
+                             }
+
+=> do while loop.........
+
+let i = 0;
+
+do{
+    //Statement...
+    increment/decrement
+}
+
+while(i<=5);
+
+answer=            do {
+    console.log(Number[y]);
+    y++
+}
+while (y <= 11);
